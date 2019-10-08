@@ -8,6 +8,8 @@ double 較無誤差的浮點數
 
 pow(n,x)   n的x次方
 
+sizeof() 看資料型別的位元大小
+
 /n 換行
 
 int(整數) 用%d(十進位) 
