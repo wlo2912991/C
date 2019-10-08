@@ -15,6 +15,7 @@ sizeof() 看資料型別的位元大小
 int(整數) 用%d(十進位) 
 unsigned int 用 %u
 float double (浮點數) 用%f
+char 用%c
 
 %i 任何格式整數   %d 十進位有(負)號整數
 %u 十進位無號整數 %f十進位浮點數
