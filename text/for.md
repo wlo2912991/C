@@ -16,25 +16,6 @@ int main(void)
    return 0;
 }
 ```
-```
-#include <stdio.h>
-#include <stdlib.h>
-int main(void)
-{
-   int i,j;
-
-   for (i=1;i<=9;i++)		/* 外層迴圈 */
-   {
-      for (j=1;j<=9;j++)	/* 內層迴圈 */
-         printf("%d*%d=%2d  ",i,j,i*j);
-      printf("\n");
-   }
-
-   system("pause");
-   return 0;
-}
-
-```
 # 題目
 ```
 輸入兩個數字
@@ -47,4 +28,23 @@ int main(void)
 ```
 輸入長跟邊
 印出一個空心長方形
+```
+## 找出錯誤
+```
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i,j;
+
+   for (i=1;i<=9;i++)		/* 外層迴圈 */
+   {
+      for (j=1;j<=9;j++)	/* 內層迴圈 */
+         printf("%d*%d=%2d  ",i,j,i*j);
+      printf("\n");
+   
+
+   system("pause");
+   return 0;
+}
 ```
