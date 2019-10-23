@@ -8,6 +8,7 @@ do{程式碼}
 while(條件)
 不管條件成不成立 程式碼至少會執行一次
 ```
+```
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
